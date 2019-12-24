@@ -48,10 +48,10 @@ def get_extensions():
     return ext_modules
 
 setup(
-    name="DCN",
+    name="dcn3d",
     version="1.0",
     author="xvjiarui",
-    url="https://github.com/charlesshang/DCNv2",
+    url="https://github.com/DengpanFu/DCN",
     description="deformable convolutional networks",
     packages=find_packages(exclude=("configs", "tests",)),
     ext_modules=get_extensions(),
